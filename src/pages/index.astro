@@ -1,23 +1,11 @@
 ---
-import BaseHead from "@components/BaseHead.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
+import Layout from "@layouts/Layout.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@data/consts";
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <body>
-    <Header title={SITE_TITLE} />
-    <main>
-      <h2>hi there 🌱</h2>
-      <p>
-        I care deeply, <b>I help solve stuff</b>
-      </p>
-    </main>
-    <Footer />
-  </body>
-</html>
+<Layout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <h2>hi there 🌱</h2>
+  <p>
+    I care deeply, <b>I help solve stuff</b>
+  </p>
+</Layout>
