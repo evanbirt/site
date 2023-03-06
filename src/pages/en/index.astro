@@ -6,9 +6,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "@data/consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "@components/FormattedDate.astro";
 
-// reverse-chronological order
-const posts = (await getCollection("en")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+// alphabetical order
+const posts = (await getCollection("en")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
 );
 ---
 
