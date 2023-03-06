@@ -24,11 +24,11 @@ const { title, description, pubDate, updatedDate } = Astro.props;
     <Header />
     <main>
       <article>
-        <FormattedDate date={pubDate} />
+        <FormattedDate date={pubDate} /> posted
         {
           updatedDate && (
             <div class="last-updated-on">
-              Last updated on <FormattedDate date={updatedDate} />
+              <FormattedDate date={updatedDate} /> updated
             </div>
           )
         }
