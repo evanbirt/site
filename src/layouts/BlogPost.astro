@@ -14,10 +14,6 @@ const { title, description, pubDate, updatedDate } = Astro.props;
   <head>
     <BaseHead title={title} description={description} />
     <style>
-      .title {
-        font-size: 2em;
-        margin: 0.25em 0 0;
-      }
       hr {
         border-top: 1px solid #ddd;
         margin: 1rem 0;
@@ -32,7 +28,6 @@ const { title, description, pubDate, updatedDate } = Astro.props;
     <Header />
     <main>
       <article>
-        <h1 class="title">{title}</h1>
         <FormattedDate date={pubDate} />
         {
           updatedDate && (
