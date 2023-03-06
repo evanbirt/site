@@ -9,9 +9,10 @@ import {
 ---
 
 <header>
-  <h2>
-    {SITE_TITLE}
-  </h2>
+  <div class="split">
+    <code>/</code>
+    <a href="/en/about/" class="logo">{SITE_TITLE}</a>
+  </div>
   <nav>
     <HeaderLink href="/">Home</HeaderLink>
     <HeaderLink href="/blog">Blog</HeaderLink>
@@ -28,5 +29,16 @@ import {
   }
   h2 {
     margin: 0.5em 0;
+  }
+  .split {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+  }
+  .logo {
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
   }
 </style>
