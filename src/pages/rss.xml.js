@@ -1,5 +1,8 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
+import sanitizeHtml from "sanitize-html";
+import MarkdownIt from "markdown-it";
+const parser = new MarkdownIt();
 import { SITE_TITLE, SITE_DESCRIPTION } from "@data/consts";
 
 export async function get(context) {
@@ -11,6 +14,7 @@ export async function get(context) {
     items: posts.map((post) => ({
       ...post.data,
       link: `/blog/${post.slug}/`,
+      content: sanitizeHtml(parser.render(post.body)),
     })),
   });
 }
