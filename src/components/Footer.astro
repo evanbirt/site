@@ -1,27 +1,14 @@
 ---
-import { COPYRIGHT } from "@data/consts";
-
-const footer_links = [
-  {
-    words: "sent with",
-    href: "https://astro.build/",
-    name: "astro",
-  },
-  {
-    words: "blog site",
-    href: "https://github.com/evanbirt/site/",
-    name: "code",
-  },
-];
+import { COPYRIGHT, FOOTER_LINKS } from "@data/consts";
 ---
 
 <footer>
   {
-    footer_links.map((link) => (
+    FOOTER_LINKS.map((line) => (
       <div>
-        {link.words}
-        <a href={link.href} target="_blank">
-          {link.name}
+        {line.words}
+        <a href={line.href} target="_blank">
+          {line.link}
         </a>
       </div>
     ))

@@ -1,11 +1,6 @@
 ---
 import HeaderLink from "@components/HeaderLink.astro";
-import {
-  GITHUB_PROFILE,
-  LINKEDIN_PROFILE,
-  RSS_FEED,
-  SITE_TITLE,
-} from "@data/consts";
+import { SITE_TITLE } from "@data/consts";
 import { getCollection } from "astro:content";
 
 // alphabetical order
@@ -26,9 +21,6 @@ const posts = (await getCollection("en")).sort((a, b) =>
       ))
     }
     <HeaderLink href="/blog/">Blog</HeaderLink>
-    <HeaderLink href={LINKEDIN_PROFILE} target="_blank">LinkedIn →</HeaderLink>
-    <HeaderLink href={GITHUB_PROFILE} target="_blank">GitHub →</HeaderLink>
-    <HeaderLink href={RSS_FEED}>RSS →</HeaderLink>
   </nav>
 </header>
 <style>
