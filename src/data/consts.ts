@@ -20,7 +20,7 @@ export const FOOTER_LINKS = [
   },
   {
     words: "astro",
-    href: "https://astro.build",
+    href: "https://docs.astro.build",
     link: "docs",
   },
   {
