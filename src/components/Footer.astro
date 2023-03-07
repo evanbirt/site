@@ -1,15 +1,41 @@
 ---
 import { COPYRIGHT } from "@data/consts";
 
-const today = new Date();
+const footer_links = [
+  {
+    words: "sent with",
+    href: "https://astro.build/",
+    name: "astro",
+  },
+  {
+    words: "blog site",
+    href: "https://github.com/evanbirt/site/",
+    name: "code",
+  },
+];
 ---
 
 <footer>
-  &copy; {today.getFullYear()}
-  {COPYRIGHT}. All rights reserved.
+  {
+    footer_links.map((link) => (
+      <div>
+        {link.words}
+        <a href={link.href} target="_blank">
+          {link.name}
+        </a>
+      </div>
+    ))
+  }
+  <div class="copyright-notice">
+    &copy; 2023
+    {COPYRIGHT}. All rights reserved.
+  </div>
 </footer>
 <style>
   footer {
     text-align: left;
+  }
+  .copyright-notice {
+    margin: 1em 0;
   }
 </style>
