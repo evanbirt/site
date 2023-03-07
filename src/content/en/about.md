@@ -7,4 +7,4 @@ description: "The more you know"
 
 I care deeply, **I help solve stuff**
 
-The more you know
+The more you [know](/en/projects/)
