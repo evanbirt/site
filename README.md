@@ -15,6 +15,10 @@ Features:
 
 ..
 
+**commits with** `type(scope?): subject`, common types:
+
+build ,chore ,ci ,docs ,feat ,fix ,perf ,refactor ,revert ,style ,test
+
 ## Project Structure
 
 ```
