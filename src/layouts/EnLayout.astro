@@ -19,14 +19,14 @@ const { title, description, updatedDate } = Astro.props;
   <body>
     <Header />
     <main>
-      <slot />
       {
         updatedDate && (
           <div class="last-updated-on">
-            <FormattedDate date={updatedDate} /> updated
+            updated <FormattedDate date={updatedDate} />
           </div>
         )
       }
+      <slot />
     </main>
     <Footer />
   </body>

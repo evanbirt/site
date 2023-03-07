@@ -20,15 +20,20 @@ const { title, description, pubDate, updatedDate } = Astro.props;
     <Header />
     <main>
       <article>
-        <FormattedDate date={pubDate} /> posted
         {
-          updatedDate && (
-            <div class="last-updated-on">
-              <FormattedDate date={updatedDate} /> updated
+          pubDate && (
+            <div class="posted-on">
+              posted <FormattedDate date={pubDate} />
             </div>
           )
         }
-        <hr />
+        {
+          updatedDate && (
+            <div class="last-updated-on">
+              updated <FormattedDate date={updatedDate} />
+            </div>
+          )
+        }
         <slot />
       </article>
     </main>
