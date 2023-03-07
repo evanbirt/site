@@ -28,4 +28,9 @@ export const FOOTER_LINKS = [
     href: "https://github.com/evanbirt/site",
     link: "source",
   },
+  {
+    words: "the",
+    href: "/rss.xml",
+    link: "rss feed",
+  },
 ];
