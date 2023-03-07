@@ -5,7 +5,7 @@ import { COPYRIGHT, FOOTER_LINKS } from "@data/consts";
 <footer>
   {
     FOOTER_LINKS.map((line) => (
-      <div>
+      <div class="footer-links">
         {line.words}
         <a href={line.href} target="_blank">
           {line.link}
@@ -23,9 +23,9 @@ import { COPYRIGHT, FOOTER_LINKS } from "@data/consts";
     text-align: left;
   }
   .copyright-notice {
-    /* margin: 1em 0; */
+    margin: var(--line-spacing) 0;
   }
-  .rss-feed {
-    /* margin: 1em 0; */
+  .footer-links {
+    margin: var(--line-spacing) 0;
   }
 </style>
