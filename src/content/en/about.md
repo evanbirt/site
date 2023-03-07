@@ -3,7 +3,7 @@ title: "About"
 description: "The more you know"
 ---
 
-## hi there 🌱
+# about me
 
 I care deeply, **I help solve stuff**
 
