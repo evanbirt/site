@@ -11,3 +11,6 @@ hr {
 .last-updated-on {
   margin: 0em 0 1em;
 }
+ul {
+  list-style-type: square;
+}

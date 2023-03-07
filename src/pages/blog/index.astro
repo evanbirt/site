@@ -2,7 +2,7 @@
 import BaseHead from "@components/BaseHead.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "@data/consts";
+import { BLOG_TITLE, BLOG_DESCRIPTION } from "@data/consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "@components/FormattedDate.astro";
 
@@ -15,7 +15,7 @@ const posts = (await getCollection("blog")).sort(
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead title={BLOG_TITLE} description={BLOG_DESCRIPTION} />
     <style>
       ul {
         list-style-type: none;
@@ -33,7 +33,7 @@ const posts = (await getCollection("blog")).sort(
         color: #595959;
       }
       ul li a:visited {
-        color: #8e32dc;
+        /* color: #8e32dc; */
       }
     </style>
   </head>
