@@ -23,10 +23,6 @@ const en = defineCollection({
     title: z.string(),
     description: z.string(),
     // Transform string to Date object
-    pubDate: z
-      .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
     updatedDate: z
       .string()
       .optional()

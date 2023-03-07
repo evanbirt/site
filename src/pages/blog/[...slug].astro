@@ -15,6 +15,7 @@ const post = Astro.props;
 const { Content } = await post.render();
 ---
 
+<!-- keep these in here for article html tag -->
 <BlogPost {...post.data}>
   <h1>{post.data.title}</h1>
   <p>{post.data.description}</p>

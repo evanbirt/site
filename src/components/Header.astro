@@ -6,17 +6,26 @@ import {
   RSS_FEED,
   SITE_TITLE,
 } from "@data/consts";
+import { getCollection } from "astro:content";
+
+// alphabetical order
+const posts = (await getCollection("en")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
+);
 ---
 
 <header>
   <div class="split">
     <code>/</code>
-    <a href="/en/about/" class="logo">{SITE_TITLE}</a>
+    <a href="/" class="logo">{SITE_TITLE}</a>
   </div>
   <nav>
-    <HeaderLink href="/">Home</HeaderLink>
-    <HeaderLink href="/blog">Blog</HeaderLink>
-    <HeaderLink href="/en">EN</HeaderLink>
+    {
+      posts.map((post) => (
+        <HeaderLink href={`/en/${post.slug}/`}>{post.data.title}</HeaderLink>
+      ))
+    }
+    <HeaderLink href="/blog/">Blog</HeaderLink>
     <HeaderLink href={LINKEDIN_PROFILE} target="_blank">LinkedIn →</HeaderLink>
     <HeaderLink href={GITHUB_PROFILE} target="_blank">GitHub →</HeaderLink>
     <HeaderLink href={RSS_FEED}>RSS →</HeaderLink>
@@ -25,9 +34,6 @@ import {
 <style>
   header {
     margin: 0em 0 2em;
-  }
-  h2 {
-    margin: 0.5em 0;
   }
   .split {
     display: flex;
