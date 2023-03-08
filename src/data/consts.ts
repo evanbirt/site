@@ -9,28 +9,23 @@ export const COPYRIGHT = "Evan Birt";
 export const RSS_FEED = "/rss.xml";
 export const FOOTER_LINKS = [
   {
-    words: "my",
     href: "https://github.com/evanbirt",
-    link: "github",
+    name: "github",
   },
   {
-    words: "my",
     href: "https://www.linkedin.com/in/evanbirt",
-    link: "linkedin",
+    name: "linkedin",
   },
   {
-    words: "astro",
-    href: "https://docs.astro.build",
-    link: "docs",
+    href: "https://astro.build",
+    name: "astro",
   },
   {
-    words: "blog",
     href: "https://github.com/evanbirt/site",
-    link: "source",
+    name: "source",
   },
   {
-    words: "the",
     href: "/rss.xml",
-    link: "rss feed",
+    name: "rss feed",
   },
 ];

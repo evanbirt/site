@@ -11,6 +11,8 @@ Features:
 - ✅ Sitemap support
 - ✅ Markdown support
 
+Built with [Astro](https://docs.astro.build).
+
 ## Usage
 
 ..
@@ -54,8 +56,6 @@ build ,chore ,ci ,docs ,feat ,fix ,perf ,refactor ,revert ,style ,test
 ## Credit
 
 Stylesheet by [Bear Blog](https://github.com/HermanMartinus/bearblog/).
-
-Built with [Astro](https://astro.build/).
 
 ## Notice
 

@@ -4,11 +4,11 @@ import { COPYRIGHT, FOOTER_LINKS } from "@data/consts";
 
 <footer>
   {
-    FOOTER_LINKS.map((line) => (
+    FOOTER_LINKS.map((link) => (
       <div class="footer-links">
-        {line.words}
-        <a href={line.href} target="_blank">
-          {line.link}
+        link{" "}
+        <a href={link.href} target="_blank">
+          {link.name}
         </a>
       </div>
     ))
