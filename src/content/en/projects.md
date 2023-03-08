@@ -4,18 +4,18 @@ description: "A peek into my life"
 updatedDate: "Jan 01 2023"
 ---
 
-# projects
+# Projects
 
 A peek into my life
 
-## current
+## Current
 
 - web consultant, dev
 - linux system administration
 - dotfiles
 - backpacking
 
-## past
+## Past
 
 - bs computer science
 - minor mathematics

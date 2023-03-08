@@ -3,7 +3,7 @@ title: "About"
 description: "The more you know"
 ---
 
-# about me
+# About me
 
 I care deeply, **I help solve stuff**
 
