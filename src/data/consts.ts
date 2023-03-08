@@ -17,15 +17,7 @@ export const FOOTER_LINKS = [
     name: "linkedin",
   },
   {
-    href: "https://astro.build",
-    name: "astro",
-  },
-  {
-    href: "https://github.com/evanbirt/site",
-    name: "source",
-  },
-  {
     href: "/rss.xml",
-    name: "rss feed",
+    name: "rss",
   },
 ];
