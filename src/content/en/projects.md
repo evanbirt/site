@@ -1,7 +1,6 @@
 ---
 title: "Projects"
 description: "A peek into my life"
-updatedDate: "Jan 01 2023"
 ---
 
 # Projects
