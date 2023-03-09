@@ -19,7 +19,7 @@ Built with [Astro](https://docs.astro.build).
 
 **commits with** `type(scope?): subject`, common types:
 
-build ,chore ,ci ,docs ,feat ,fix ,perf ,refactor ,revert ,style ,test
+build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test
 
 ## Project Structure
 
