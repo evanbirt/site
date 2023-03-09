@@ -1,10 +1,8 @@
 ---
 title: "Contact"
-description: "Let us talk"
+description: "Let's talk, anything everywhere"
 ---
 
-# Let us talk by
+# Let's talk
 
-Digital open door
-
-- virtual [coffee/tea](https://calendly.com/evanbirt)
+Schedule a virtual [coffee/tea](https://calendly.com/evanbirt)
