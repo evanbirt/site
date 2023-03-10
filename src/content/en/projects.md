@@ -3,6 +3,8 @@ title: "Projects"
 description: "A peek into my life"
 ---
 
+# 🦧
+
 # Projects
 
 A peek into my life

@@ -3,7 +3,9 @@ title: "About"
 description: "The more you know"
 ---
 
-# About
+# 🪷
+
+# About me
 
 I'm an engineer
 
