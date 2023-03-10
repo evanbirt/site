@@ -5,7 +5,7 @@ description: "The more you know"
 
 # About
 
-I'm an engineer 🌱
+I'm an engineer
 
 I care deeply, **I help solve stuff**
 
