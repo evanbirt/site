@@ -3,7 +3,9 @@ title: "About"
 description: "The more you know"
 ---
 
-# About me
+# About
+
+I'm an engineer 🌱
 
 I care deeply, **I help solve stuff**
 

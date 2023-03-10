@@ -11,8 +11,8 @@ const posts = (await getCollection("en")).sort((a, b) =>
 
 <header>
   <div class="split">
+    <HeaderLink href="/" class="logo">{SITE_TITLE}'s site</HeaderLink>
     <code>/</code>
-    <a href="/" class="logo">{SITE_TITLE}</a>
   </div>
   <nav>
     {
@@ -26,12 +26,17 @@ const posts = (await getCollection("en")).sort((a, b) =>
 <style>
   header {
   }
+  nav {
+  }
+  nav a {
+    margin: var(--line-spacing) 0;
+  }
   .split {
     display: flex;
     justify-content: space-between;
   }
   .logo {
-    text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
     color: black;
   }

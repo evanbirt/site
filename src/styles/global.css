@@ -11,6 +11,9 @@ ul {
   list-style-type: square;
   margin: 0%;
 }
+ul ul {
+  list-style-type: circle;
+}
 h1 {
   font-size: 2em;
 }
