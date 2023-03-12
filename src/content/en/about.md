@@ -5,7 +5,7 @@ description: "The more you know"
 
 # 🪷
 
-# About me
+# About
 
 I'm an engineer
 
