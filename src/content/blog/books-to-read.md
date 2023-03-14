@@ -13,4 +13,6 @@ updatedDate: "Mar 13 2023"
 
 ## Life
 
+"Medicine for Mountaineering & Other Wilderness Activities" by James A. Wilkerson M.D.
+
 "Ikigai: The Japanese Secret to a Long and Happy Life" by Héctor García, Francesc Miralles
