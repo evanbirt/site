@@ -2,7 +2,7 @@
 title: "Books to read"
 description: "The books to read and recommend"
 pubDate: "Dec 01 2022"
-updatedDate: "Jan 01 2023"
+updatedDate: "Mar 13 2023"
 ---
 
 ## Tech

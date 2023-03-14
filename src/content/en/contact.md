@@ -9,9 +9,10 @@ description: "Let's talk, anything everywhere"
 
 Schedule a virtual [coffee/tea](https://calendly.com/evanbirt)
 
-Let's talk, anything everywhere
+About whatever
 
 - cloud security
 - orchestration
 - containerization
-- life
+- experience
+- backpacking

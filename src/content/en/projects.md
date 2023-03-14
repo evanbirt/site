@@ -11,10 +11,8 @@ A peek into my life
 
 ## Current
 
-- web consultant, dev
+- web consultant & dev
 - linux system administration
-- dotfiles
-- backpacking
 
 ## Past
 
